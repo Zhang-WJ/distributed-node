@@ -1,0 +1,23 @@
+{
+  "name": "distributed-node",
+  "version": "1.0.0",
+  "description": "Distributed Node.js Sample Project for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Fake Tests\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhang-WJ/distributed-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhang-WJ/distributed-node/issues"
+  },
+  "homepage": "https://github.com/Zhang-WJ/distributed-node#readme",
+  "dependencies": {
+    "fastify": "^3.2.1"
+  }
+}
