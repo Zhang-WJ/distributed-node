@@ -22,3 +22,12 @@ test('GET /recipe/42', async (t) => {
     t.equal(body.id, 42)
     server.kill()
 })
+
+test('GET /', async (t) => {
+    const { server, url } = await serverStart();
+    const result = await fetch(`${url}/`);
+    const body = await result.text();
+    t.equal(body, 'Hello from Distributed Node.js!');
+    server.kill();
+});
+
