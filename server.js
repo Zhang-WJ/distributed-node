@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8000
 const Recipe = require("./recipe.js")
 
 server.get("/", async (req, reply)=>{
-    return "Hello form distributed Node.js!"
+    return "Hello from Distributed Node.js!"
 })
 
 server.get("/recipes/:id", async (req, reply) =>{
